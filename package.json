@@ -5,6 +5,7 @@
   "dependencies": {
     "prompt-sync": "^4.2.0"
   },
+  "bin": "main.js",
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
