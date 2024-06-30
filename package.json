@@ -1,6 +1,7 @@
 {
   "name": "pl-terminal-app",
   "version": "1.0.0",
+  "main": "prompt.js",
   "dependencies": {
     "prompt-sync": "^4.2.0"
   },
