@@ -1,0 +1,13 @@
+
+    Product Name: Trophy Beer
+    =================
+    Revenue: 2520000.000
+    Gross Profit: 570000.000
+    Net Profit: 277500.000
+      
+    Product Name: Heineiken
+    =================
+    Revenue: 2160000.000
+    Gross Profit: 560000.000
+    Net Profit: 270000.000
+      
