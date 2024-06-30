@@ -33,11 +33,13 @@ function getReport(product) {
   const convertToDecimalPlace = (num, precision = 3) => num.toFixed(precision);
   report = `
     Product Name: ${product.prod_name}
-    =================
+    Cost Price: ${product.cost_price}
+    Sales: Price: ${product.unit_price}
+    Quantity: ${product.qty}
     Revenue: ${convertToDecimalPlace(revenue(product.unit_price, product.qty))}
     Gross Profit: ${convertToDecimalPlace(
       grossProfit(product.unit_price, product.cost_price, product.qty)
-    )}
+    )} 
     Net Profit: ${convertToDecimalPlace(
       netProfit(
         grossProfit(product.unit_price, product.cost_price, product.qty),
@@ -45,7 +47,9 @@ function getReport(product) {
         EXP
       )
     )}
+    ---------------------------------
       `;
+
   return report;
 }
 
