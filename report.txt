@@ -1,26 +1,10 @@
 
-    Product Name: Cake
-    Cost Price: 400
-    Sales: Price: 500
-    Revenue: 500000.000
-    Gross Profit: 100000.000 
-    Net Profit: -75000.000
-    ---------------------------------
-      
-    Product Name: Butter
-    Cost Price: 3440
-    Sales: Price: 4560
-    Revenue: 4560000.000
-    Gross Profit: 1120000.000 
-    Net Profit: 690000.000
-    ---------------------------------
-      
-    Product Name: Butter XL
-    Cost Price: 3445
-    Sales: Price: 5778
-    Quantity: 1000
-    Revenue: 5778000.000
-    Gross Profit: 2333000.000 
-    Net Profit: 1599750.000
+    Product Name: Trophy
+    Cost Price: 6500
+    Sales: Price: 8400
+    Quantity: 5
+    Revenue: 42000.000
+    Gross Profit: 9500.000 
+    Net Profit: 114875.000
     ---------------------------------
       

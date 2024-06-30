@@ -1,6 +1,6 @@
 {
   "name": "pl-terminal-app",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "main": "main.js",
   "dependencies": {
     "prompt-sync": "^4.2.0"
