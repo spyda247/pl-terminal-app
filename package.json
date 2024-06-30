@@ -1,7 +1,7 @@
 {
   "name": "pl-terminal-app",
   "version": "1.0.0",
-  "main": "prompt.js",
+  "main": "main.js",
   "dependencies": {
     "prompt-sync": "^4.2.0"
   },
@@ -9,7 +9,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prestart": "node clean.js",
-    "start": "node prompt.js"
+    "start": "node main.js"
   },
   "keywords": [],
   "author": "",
