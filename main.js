@@ -29,7 +29,8 @@ function getReport(product) {
   const revenue = (unit_price, qty) => unit_price * qty;
   const grossProfit = (unit_price, cost_price, qty) =>
     (unit_price - cost_price) * qty;
-  const netProfit = (grossProfit, TAX, EXP) => (grossProfit - EXP) * TAX;
+  const netProfit = (grossProfit, TAX, EXP) =>
+    grossProfit - (grossProfit - EXP) * TAX;
   const convertToDecimalPlace = (num, precision = 3) => num.toFixed(precision);
   report = `
     Product Name: ${product.prod_name}
